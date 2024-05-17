@@ -10,3 +10,16 @@ nav {
 .logo-div img{
     width: 50px;
 }
+.items-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.items-div ul li {
+    list-style: none;
+}
+.items-div ul li a {
+    text-decoration: none;
+    color: black;
+}
