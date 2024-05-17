@@ -3,6 +3,10 @@
     --primary-color: #1A4D2E; 
     --secondary-color: #4F6F52;
     --tertiary-color: #F5EFE6;
+    --hero-text-size: 3rem; /* Very huge for hero */
+  --small-text-size: 0.8rem; /* Very small for footer */
+  --medium-text-size: 1rem; /* Medium size */
+  --extra-small-text-size: 0.6rem; /* Extra small size */
 
 
   }
@@ -32,11 +36,14 @@ nav {
     list-style: none;
     padding-right: 40px;
     font-family: var(--rowdies-font);
+    font-size: var(--medium-text-size);
 
 }
 .items-div ul li a {
     text-decoration: none;
-    color: black;
+    color: var(--primary-color);
+
+    
 }
 .book-now {
     font-family: var(--rowdies-font);
