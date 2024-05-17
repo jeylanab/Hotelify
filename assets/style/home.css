@@ -1,5 +1,10 @@
 :root {
-    --rowdies-font: 'Rowdies', sans-serif; /* Define the Rowdies font variable */
+    --rowdies-font: 'Rowdies', sans-serif;
+    --primary-color: #1A4D2E; 
+    --secondary-color: #4F6F52;
+    --tertiary-color: #F5EFE6;
+
+
   }
 
 body{
@@ -35,7 +40,12 @@ nav {
 }
 .book-now {
     font-family: var(--rowdies-font);
+    font-style: normal;
+    font-size: medium;
     padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    border-radius: 10px;
     
 }
 /* .header-div {
