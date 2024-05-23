@@ -21,7 +21,8 @@ nav {
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
+    padding-top: 20px;
+    background-color: hsla(0, 67%, 94%, 0.493);
 }
 .logo-div img{
     width: 50px;
@@ -45,6 +46,9 @@ nav {
 
     
 }
+.items-div ul li a:hover {
+    color: var(--secondary-color);
+}
 .book-now {
     font-family: var(--rowdies-font);
     font-style: normal;
@@ -55,9 +59,31 @@ nav {
     border-radius: 10px;
     
 }
-/* .header-div {
-    background-image: url(../images/bilderboken-rlwE8f8anOc-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-} */
+.header-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-section {
+    font-family: var(--rowdies-font);
+    font-size: var(--hero-text-size);
+}
+.image-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-hero .jeimg {
+    width: 600px;
+    height: 200px;
+    padding: 3px;}
+.two-hotel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.two-hotel img {
+    width: 300px;
+}
