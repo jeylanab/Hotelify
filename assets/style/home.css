@@ -1,9 +1,9 @@
 :root {
     --rowdies-font: 'Rowdies', sans-serif;
-    --primary-color: #1A4D2E; 
+    --primary-color: #06D6A0; 
     --secondary-color: #4F6F52;
     --tertiary-color: #F5EFE6;
-    --hero-text-size: 3rem; /* Very huge for hero */
+    --hero-text-size: 2rem; /* Very huge for hero */
   --small-text-size: 0.8rem; /* Very small for footer */
   --medium-text-size: 1rem; /* Medium size */
   --extra-small-text-size: 0.6rem; /* Extra small size */
