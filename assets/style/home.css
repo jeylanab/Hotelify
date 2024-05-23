@@ -3,7 +3,7 @@
     --primary-color: #06D6A0; 
     --secondary-color: #4F6F52;
     --tertiary-color: #F5EFE6;
-    --hero-text-size: 2rem; /* Very huge for hero */
+    --hero-text-size: 3rem; /* Very huge for hero */
   --small-text-size: 0.8rem; /* Very small for footer */
   --medium-text-size: 1rem; /* Medium size */
   --extra-small-text-size: 0.6rem; /* Extra small size */
@@ -14,6 +14,7 @@
 body{
   margin: 0;
   padding: 0;
+  
 }
 nav {
     display: flex;
@@ -22,7 +23,6 @@ nav {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 20px;
-    background-color: hsla(0, 67%, 94%, 0.493);
 }
 .logo-div img{
     width: 50px;
@@ -64,26 +64,24 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
-.hero-section {
+.hero-txt {
     font-family: var(--rowdies-font);
     font-size: var(--hero-text-size);
+    font-weight: 400;
 }
-.image-hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.hero-section {
+    width: 50vw;
 }
-.image-hero .jeimg {
-    width: 600px;
-    height: 200px;
-    padding: 3px;}
-.two-hotel {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.hero-img {
+    background-image: url(../images/pg/—Pngtree—iphone\ 14_8908770.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
 }
-.two-hotel img {
-    width: 300px;
+p{
+    font-family: var(--rowdies-font);
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(84, 83, 83);
+    
 }
