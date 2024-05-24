@@ -1,3 +1,4 @@
+
 :root {
   --rowdies-font: "Rowdies", sans-serif;
   --primary-color: #06d6a0;
@@ -93,4 +94,7 @@ header {
   border-radius: 10px;
   margin-top: 5px;
   
+}
+.featured {
+    height: 100vh;
 }
