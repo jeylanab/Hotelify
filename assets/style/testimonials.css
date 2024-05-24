@@ -21,7 +21,6 @@
   }
   
   .testimonials .testimonial-card {
-    border: 1px solid #ccc;
     padding: 10px;
   }
   
@@ -37,8 +36,11 @@
   .testimonial-card {
     color: rgb(191, 248, 248);
     background-color: #101d33;
-    border-radius: 20px;
-    box-shadow: 4px 5px hwb(206 12% 67% / 0.501);
+    border-radius: 5px;
+  }
+  .testimonial-card:hover{
+     background-color: #0b3070;
+
   }
   .testimonials-right .test-text{
    font-size: 45px;
