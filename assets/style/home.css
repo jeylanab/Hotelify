@@ -1,87 +1,95 @@
 :root {
-    --rowdies-font: 'Rowdies', sans-serif;
-    --primary-color: #06D6A0; 
-    --secondary-color: #4F6F52;
-    --tertiary-color: #F5EFE6;
-    --hero-text-size: 3rem; /* Very huge for hero */
+  --rowdies-font: "Rowdies", sans-serif;
+  --primary-color: #06d6a0;
+  --secondary-color: #4f6f52;
+  --tertiary-color: #f5efe6;
+  --hero-text-size: 3rem; /* Very huge for hero */
   --small-text-size: 0.8rem; /* Very small for footer */
   --medium-text-size: 1rem; /* Medium size */
   --extra-small-text-size: 0.6rem; /* Extra small size */
+}
 
-
-  }
-
-body{
+body {
   margin: 0;
   padding: 0;
-  
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
 }
-.logo-div img{
-    width: 50px;
+.logo-div img {
+  width: 50px;
 }
 .items-div ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .items-div ul li {
-    list-style: none;
-    padding-right: 40px;
-    font-family: var(--rowdies-font);
-    font-size: var(--medium-text-size);
-
+  list-style: none;
+  padding-right: 40px;
+  font-family: var(--rowdies-font);
+  font-size: var(--medium-text-size);
 }
 .items-div ul li a {
-    text-decoration: none;
-    color: var(--primary-color);
-
-    
+  text-decoration: none;
+  color: var(--primary-color);
 }
 .items-div ul li a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 .book-now {
-    font-family: var(--rowdies-font);
-    font-style: normal;
-    font-size: medium;
-    padding: 10px;
-    background-color: var(--primary-color);
-    color: var(--tertiary-color);
-    border-radius: 10px;
-    
+  font-family: var(--rowdies-font);
+  font-style: normal;
+  font-size: medium;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border-radius: 10px;
+  border: none;
 }
 .header-div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+Main {
+  background-color: hsla(126, 81%, 61%, 0.075);
 }
 .hero-txt {
-    font-family: var(--rowdies-font);
-    font-size: var(--hero-text-size);
-    font-weight: 400;
+  font-family: var(--rowdies-font);
+  font-size: var(--hero-text-size);
+  font-weight: 400;
 }
-.hero-section {
-    width: 50vw;
-}
+
 .hero-img {
-    background-image: url(../images/pg/—Pngtree—iphone\ 14_8908770.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -2;
+  width: 500px;
 }
-p{
-    font-family: var(--rowdies-font);
-    font-weight: 100;
-    font-style: normal;
-    color: rgb(84, 83, 83);
-    
+p {
+  font-family: var(--rowdies-font);
+  font-weight: 100;
+  font-style: normal;
+  color: rgb(84, 83, 83);
+}
+header {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.CTA button a {
+  font-family: var(--rowdies-font);
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.CTA button {
+  padding: 10px;
+  width: 10vw;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border: none;
+  border-radius: 10px;
+  
 }
