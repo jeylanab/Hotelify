@@ -68,5 +68,5 @@ const testimonials = [
       testimonialsDiv.appendChild(card);
   });
   
-  
+  const name = "jeylan is my name and i am not feel shame about it again"
   
