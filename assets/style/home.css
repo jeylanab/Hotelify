@@ -59,7 +59,7 @@ nav {
   align-items: center;
 }
 Main {
-  background-color: hsla(126, 81%, 61%, 0.075);
+  background-color: hsla(0, 1%, 79%, 0.189);
 }
 .hero-txt {
   font-family: var(--rowdies-font);

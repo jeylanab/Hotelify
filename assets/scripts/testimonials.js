@@ -1,1 +1,2 @@
-console.log('hello this is my console')
+const cardsDiv = document.querySelector("#cards")
+
